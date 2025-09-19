@@ -18,6 +18,8 @@ using (var scope = app.Services.CreateScope())
     SeedData.Initialize(services);
 }
 
+//Testing git
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
